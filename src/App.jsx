@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Carousel from './components/Carousel';
 import AboutUs from './components/AboutUs';
 import FAQ from './components/Faq';
+import ContactUs from './components/ContactUs';
 import './App.css';
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
       <AboutUs />
       <div className="spacer"></div>
       <FAQ />
+      <div className="spacer"></div>
+      <ContactUs />
     </div>
   );
 }

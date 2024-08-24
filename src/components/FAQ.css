@@ -14,7 +14,7 @@
   
   .faq-description {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
     color: #f0f0f0;
     font-size: 35px;
     span {
@@ -53,7 +53,7 @@
   .faq-answer {
     padding: 0 20px 20px;
     font-size: 16px;
-    color: #999999;
+    color: #b6b6b6;
   }
   
   .faq-item.open {

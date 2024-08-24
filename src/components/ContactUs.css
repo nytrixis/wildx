@@ -1,0 +1,43 @@
+.contact-us {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .contact-us h2 {
+    font-family: "Jockey One", sans-serif;
+    margin-bottom: 30px;
+    color: #08B74F;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 45px;
+  }
+  
+  .contact-buttons {
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    #btn1{
+        background-color: transparent;
+        border: 2px solid #08B74F;
+    }
+  }
+  
+  .contact-button {
+    width: 220px;
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #08B74F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-button:hover {
+    background-color: #069e43;
+  }
+  
