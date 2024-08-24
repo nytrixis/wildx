@@ -37,7 +37,7 @@ const Navbar = () => {
         <span className="logo-text">WildX</span>
       </div>
       <ul className="nav-links">
-        {['Home', 'About', 'Lorem', 'Lorem', 'Lorem', 'Contact', 'Blog'].map((item) => (
+        {['Home', 'Monitor', 'Encyclopedia', 'Blog', 'About Us', 'Contact' ].map((item) => (
           <li key={item}>
             <a 
               href="#" 

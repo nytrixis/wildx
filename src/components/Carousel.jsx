@@ -20,9 +20,9 @@ const Carousel = () => {
   };
 
   const slides = [
-    { image: image1, text: 'First Slide Text', desc: 'A', desc1: 'some text' },
-    { image: image2, text: 'Second Slide Text', desc: 'B', desc1: 'some text' },
-    { image: image3, text: 'Third Slide Text', desc: 'C', desc1: 'some text' },
+    { image: image1, text: 'First Slide Text', desc: 'Anti-Intrusion', desc1: 'We protect you from intrusive wild animals by using sophisticated sound technology.' },
+    { image: image2, text: 'Second Slide Text', desc: 'Anti-Intrusion', desc1: 'We protect you from intrusive wild animals by using sophisticated sound technology.' },
+    { image: image3, text: 'Third Slide Text', desc: 'Anti-Intrusion', desc1: 'We protect you from intrusive wild animals by using sophisticated sound technology.'  },
   ];
 
   return (
@@ -31,14 +31,14 @@ const Carousel = () => {
         {slides.map((slide, index) => (
           <div key={index} className="slide">
             <img src={slide.image} alt={`Slide ${index + 1}`} />
-            <div className="slide-number">{`${index + 1}/3`}</div>
+            {/* <div className="slide-number">{`${index + 1}/3`}</div> */}
             <div className="slide-desc">{slide.desc}</div>
             <div className="slide-desc1">{slide.desc1}</div>
             <div className="slide-buttons">
-              <button className="slide-button">Purchase Tickets</button>
+              <button className="slide-button">Learn More</button>
               <button className="slide-button" id='btn2'>Donate</button>
             </div>
-            <div className="slide-text">{slide.text}</div>
+            {/* <div className="slide-text">{slide.text}</div> */}
           </div>
         ))}
       </Slider>
