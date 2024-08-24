@@ -4,3 +4,7 @@ body, html {
   color: #1a1a1a;
   color: #f0f0f0;
 }
+
+.spacer {
+  height: 60px;
+}

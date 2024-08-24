@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
+import logo from '../assets/logo.png';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -32,7 +33,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo-container">
-        <img src="/logo.png" alt="Logo" className="logo" />
+        <img src={logo} alt="Logo" className="logo" />
         <span className="logo-text">WildX</span>
       </div>
       <ul className="nav-links">

@@ -4,22 +4,25 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './Carousel.css';
 import image1 from '../assets/image1.jpg';
+import image2 from '../assets/image2.jpg';
+import image3 from '../assets/image3.jpg';
 
 const Carousel = () => {
   const settings = {
-    dots: false,
+    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 5000,
+    arrows: true,
   };
 
   const slides = [
     { image: image1, text: 'First Slide Text', desc: 'A', desc1: 'some text' },
-    { image: '/image2.jpg', text: 'Second Slide Text', desc: 'B', desc1: 'some text' },
-    { image: '/image3.jpg', text: 'Third Slide Text', desc: 'C', desc1: 'some text' },
+    { image: image2, text: 'Second Slide Text', desc: 'B', desc1: 'some text' },
+    { image: image3, text: 'Third Slide Text', desc: 'C', desc1: 'some text' },
   ];
 
   return (
