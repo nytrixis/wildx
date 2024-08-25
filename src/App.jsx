@@ -10,6 +10,7 @@ import AuthPage from './components/AuthPage';
 import Game from './components/Game';
 import ReportForm from './components/ReportForm';
 import './App.css';
+import MonitorComponent from './components/MonitorComponent';
 
 function App() {
   const [showAuth, setShowAuth] = useState(false);
@@ -41,6 +42,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/game" element={<Game />} />
           <Route path="/report" element={<ReportForm />} />
+          <Route path='/monitor' element={<MonitorComponent />} />
         </Routes>
         <Footer />
       </div>

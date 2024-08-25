@@ -69,6 +69,8 @@ const Navbar = ({ onAuthAction }) => {
             >
               {item}
             </Link>
+            <Link to="/monitor" className={activeTab === 'Monitor' ? 'active' : ''} onClick={() => handleTabClick('Monitor')}>
+</Link>
           </li>
         ))}
       </ul>
