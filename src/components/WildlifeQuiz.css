@@ -1,0 +1,87 @@
+.wildlife-quiz {
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.1); */
+  }
+  
+  .wildlife-quiz h2 {
+    color: #08B74F;
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+  
+  .question {
+    font-size: 24px;
+    color: #f0f0f0;
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #4ecdc4;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #08B74F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45b7aa;
+  }
+  
+  .attempts {
+    margin: 10px 0;
+  }
+  
+  .heart {
+    color: #ff6b6b;
+    font-size: 24px;
+    margin: 0 5px;
+  }
+  
+  .hint {
+    color: #feca57;
+    font-style: italic;
+  }
+  
+  .success {
+    color: #4ecdc4;
+    font-weight: bold;
+    animation: pulse 1s infinite;
+  }
+  
+  .score {
+    font-size: 18px;
+    color: #f0f0f0;
+    margin-top: 15px;
+  }
+  
+  .star {
+    color: #feca57;
+    margin-left: 5px;
+  }
+  
+  .quiz-end {
+    color: #4ecdc4;
+  }
+  
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+  

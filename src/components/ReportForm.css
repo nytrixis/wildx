@@ -1,0 +1,68 @@
+/* src/components/ReportForm.css */
+.report-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 35px;
+  }
+  
+  .report-form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+    h2{
+        color: #08B74F;
+        font-size: 48px;
+        font-family: "Jockey One", sans-serif;
+    }
+  }
+  
+  .report-form input,
+  .report-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  #file-input{
+    margin-top: 20px;
+    width: 400px;
+  }
+  .report-form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 55px;
+  }
+  
+  .map-container {
+    width: 100%;
+    max-width: 800px;
+    h3 {
+        color: #08B74F;
+        font-size: 48px;
+        font-family: "Jockey One", sans-serif;
+        text-align: center;
+    }
+  }
+  
+  .form-input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  textarea.form-input {
+    resize: none;
+    height: 150px;
+    width: 200px;
+    overflow-y: auto;
+  }
+  

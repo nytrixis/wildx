@@ -1,0 +1,75 @@
+.puzzle-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .puzzle-board {
+    width: 100%;
+    max-width: 400px; /* Adjust this value to change the overall size of the puzzle */
+    margin: 20px 0;
+  }
+  
+  /* Custom styles for the jigsaw puzzle */
+  .custom-jigsaw-puzzle {
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 1 / 1;
+  }
+  
+  .custom-jigsaw-puzzle > div {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  
+  .custom-jigsaw-puzzle .jigsaw-puzzle {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  
+  .custom-jigsaw-puzzle .jigsaw-puzzle__piece {
+    width: calc(100% / 3) !important; /* Adjust based on your columns */
+    height: calc(100% / 3) !important; /* Adjust based on your rows */
+  }
+  
+  .win-message {
+    color: #4CAF50;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* ... (previous styles) ... */
+
+.puzzle-info {
+    margin-top: 20px;
+    text-align: center;
+    max-width: 600px;
+  }
+  
+  .win-message {
+    color: #4CAF50;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .info-text {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  /* ... (rest of the styles) ... */
+  

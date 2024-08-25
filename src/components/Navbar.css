@@ -93,3 +93,19 @@ body {
     text-decoration: underline;
   }
   
+  .metamask-button {
+    background-color: rgb(2, 103, 2);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 2px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .metamask-button:hover {
+    background-color: #e2761b;
+  }
+  
