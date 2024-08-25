@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import * as tmImage from '@teachablemachine/image';
 import beepSound from '../assets/beep.mp3';
+import './TeachableMachineComponent.css';
+
 
 const TeachableMachineComponent = () => {
   const webcamContainerRef = useRef(null);
@@ -19,7 +21,7 @@ const TeachableMachineComponent = () => {
       maxPredictions = model.getTotalClasses();
 
       const flip = true;
-      webcam = new tmImage.Webcam(200, 200, flip);
+      webcam = new tmImage.Webcam(800, 500, flip);
       await webcam.setup();
       await webcam.play();
       window.requestAnimationFrame(loop);
@@ -63,9 +65,11 @@ const TeachableMachineComponent = () => {
   }, []);
 
   return (
-    <div>
+    <div className="teachable-machine-container">
       <h2>Teachable Machine Image Model</h2>
-      <div ref={webcamContainerRef}></div>
+      <div className="webcam-container">
+        <div ref={webcamContainerRef}></div>
+      </div>
       <div ref={labelContainerRef}></div>
     </div>
   );
