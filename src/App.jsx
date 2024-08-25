@@ -11,6 +11,9 @@ import Game from './components/Game';
 import ReportForm from './components/ReportForm';
 import './App.css';
 import MonitorComponent from './components/MonitorComponent';
+import Danger from './components/Danger';
+import Contact from './components/Contact';
+import Encyclopedia from './components/Encyclopedia';
 
 function App() {
   const [showAuth, setShowAuth] = useState(false);
@@ -43,6 +46,9 @@ function App() {
           <Route path="/game" element={<Game />} />
           <Route path="/report" element={<ReportForm />} />
           <Route path='/monitor' element={<MonitorComponent />} />
+          <Route path='/danger' element={<Danger />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/encyclopedia' element={<Encyclopedia />} />
         </Routes>
         <Footer />
       </div>

@@ -52,7 +52,7 @@ const Navbar = ({ onAuthAction }) => {
     setDropdownOpen(!dropdownOpen);
   };
 
-  const navItems = ['Home', 'Monitor', 'Encyclopedia', 'Game', 'Report', 'Blog', 'Contact'];
+  const navItems = ['Home', 'Monitor', 'Danger', 'Encyclopedia', 'Game', 'Report', 'Blog', 'Contact'];
 
   return (
     <nav className="navbar">
@@ -70,6 +70,15 @@ const Navbar = ({ onAuthAction }) => {
               {item}
             </Link>
             <Link to="/monitor" className={activeTab === 'Monitor' ? 'active' : ''} onClick={() => handleTabClick('Monitor')}>
+</Link>
+
+<Link to="/danger" className={activeTab === 'Danger' ? 'active' : ''} onClick={() => handleTabClick('Danger')}>
+</Link>
+
+<Link to="/contact" className={activeTab === 'Contact' ? 'active' : ''} onClick={() => handleTabClick('Contact')}>
+</Link>
+
+<Link to="/encyclopedia" className={activeTab === 'Encyclopedia' ? 'active' : ''} onClick={() => handleTabClick('Encyclopedia')}>
 </Link>
           </li>
         ))}
